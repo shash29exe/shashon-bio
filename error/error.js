@@ -5,6 +5,7 @@ function reloadPage() {
 function toggleHelpBox() {
     var details = document.getElementById("details");
     if (details.style.display === "none") {
+        button.innerHTML = "Скрыть подробности";
         details.style.display = "block";
     }
     else {
